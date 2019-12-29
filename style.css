@@ -1,0 +1,167 @@
+body {
+  font-size: 27px;
+  font-family: "Nico Moji"; }
+
+.back-screen {
+  height: 560px;
+  width: 900px;
+  background-color: black; }
+
+.game-play {
+  position: relative; }
+
+.game-start {
+  position: absolute;
+  top: 300px;
+  right: 0;
+  padding: 5px;
+  color: white; }
+
+.game-start:hover {
+  color: white;
+  background-color: black; }
+
+.human-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  background-color: white;
+  line-height: 180%;
+  font-weight: bold;
+  border-radius: 10px; }
+  .human-info .human-name {
+    font-weight: bold; }
+  .human-info .human-hp {
+    font-weight: bold; }
+  .human-info .human-mp {
+    font-weight: bold; }
+  .human-info .human-lv {
+    font-weight: bold; }
+
+.human-action {
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px; }
+  .human-action .human-attack {
+    width: 150px;
+    margin-bottom: 5px;
+    cursor: pointer; }
+  .human-action .human-attack:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+  .human-action .human-magic {
+    width: 150px;
+    margin-bottom: 10px;
+    cursor: pointer; }
+  .human-action .human-magic:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+  .human-action .human-escape {
+    width: 150px;
+    margin-bottom: 10px;
+    cursor: pointer; }
+  .human-action .human-escape:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+  .human-action .human-magic-attack {
+    width: 150px;
+    margin-bottom: 10px;
+    cursor: pointer; }
+  .human-action .human-magic-attack:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+  .human-action .human-recover {
+    margin-bottom: 70px;
+    width: 150px;
+    cursor: pointer; }
+  .human-action .human-recover:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+  .human-action .human-backmenu {
+    width: 150px;
+    margin-bottom: 10px;
+    cursor: pointer; }
+  .human-action .human-backmenu:hover {
+    background-color: #dedede;
+    color: black;
+    border-radius: 10px; }
+
+input[type="submit"] {
+  display: block;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  line-height: 180%;
+  font-family: "Nico Moji"; }
+
+.monster-info {
+  position: absolute;
+  top: 20px;
+  left: 240px;
+  width: 640px;
+  height: 360px;
+  background-color: white;
+  border-radius: 10px; }
+
+.action-log {
+  position: absolute;
+  top: 400px;
+  left: 240px;
+  width: 640px;
+  height: 140px;
+  background-color: white;
+  line-height: 104%;
+  border-radius: 10px; }
+  .action-log .log-new {
+    position: absolute;
+    width: 640px;
+    height: 140px;
+    left: 10px;
+    font-size: 18px;
+    overflow: auto; }
+  .action-log .log-new::-webkit-scrollbar {
+    display: none; }
+
+.restart {
+  position: absolute;
+  right: -130px;
+  padding: 5px;
+  cursor: pointer; }
+
+.restart:hover {
+  background-color: #dedede;
+  color: black;
+  border-radius: 10px; }
+
+.monster-info img {
+  position: absolute;
+  top: -30px;
+  left: 150px;
+  height: 350px;
+  width: 350px;
+  -o-object-fit: contain;
+     object-fit: contain; }
+.monster-info .monster-name {
+  position: absolute;
+  top: 315px;
+  left: 40px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
